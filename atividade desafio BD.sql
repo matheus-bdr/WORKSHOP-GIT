@@ -1,3 +1,4 @@
+\\primeiro commit do workshop
 create database desafio9;
 use  desafio9;
 
@@ -9,6 +10,7 @@ cpf varchar(11),
 CONSTRAINT pk_ex_cliente PRIMARY KEY (codcliente)
 );
 
+\\alterações para a aula 
 CREATE TABLE EX_PEDIDO(
 codpedido int,
 codcliente int,
